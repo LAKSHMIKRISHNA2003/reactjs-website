@@ -1,0 +1,45 @@
+.buttons-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Spacing between buttons */
+    margin: 20px 0; /* Add margin above and below the section */
+  }
+  
+  .icon-button {
+    display: flex;
+    flex-direction: column; /* Stack icon above text */
+    align-items: center;
+    justify-content: center;
+    background-color: #f01212;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px; /* Fixed width for all buttons */
+    height: 150px;
+    text-align: center;
+  }
+  
+  .icon-button:hover {
+    background-color: #f81313; /* Slightly darker green on hover */
+  }
+  
+  .button-icon {
+    font-size: 60px; /* Icon size */
+    margin-bottom: 18px; /* Space between icon and text */
+  }
+  
+  @media (max-width: 768px) {
+    .buttons-section {
+      flex-wrap: wrap; /* Stack buttons on smaller screens */
+    }
+  
+    .icon-button {
+      margin: 30px;
+      width: auto; /* Adjust width for responsiveness */
+    }
+  }
+  

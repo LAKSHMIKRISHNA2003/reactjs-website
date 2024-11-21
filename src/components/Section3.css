@@ -1,0 +1,59 @@
+.section3 {
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: space-between; /* Space between text and button */
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 20px 40px; /* Add padding inside the section */
+    border-radius: 8px; /* Optional: Rounded corners */
+    margin: 20px; /* Optional: Add space around the section */
+  }
+  
+  .section3-text {
+    max-width: 70%; /* Adjust width for the text */
+  }
+  
+  .section3-text h2 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .section3-text p {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .section3-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .red-button {
+    background-color: red; /* Red button background */
+    color: white; /* White text on the button */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .red-button:hover {
+    background-color: darkred; /* Darker red on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .section3 {
+      flex-direction: column; /* Stack content on smaller screens */
+      text-align: center; /* Center-align text */
+    }
+  
+    .section3-text {
+      max-width: 100%; /* Allow text to take full width */
+      margin-bottom: 15px; /* Add spacing between text and button */
+    }
+  }
+  

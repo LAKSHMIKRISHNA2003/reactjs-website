@@ -1,0 +1,39 @@
+.footer {
+  background-color: #333; /* Dark background for footer */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-bottom: 10px; /* Space below the copyright text */
+}
+
+.footer-menu {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display menu items in a row */
+  justify-content: center; /* Center the menu items */
+}
+
+.footer-menu li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+.footer-menu a {
+  color: white; /* White color for links */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-menu a:hover {
+  color: #4caf50; /* Green color on hover */
+}
